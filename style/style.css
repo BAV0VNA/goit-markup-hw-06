@@ -1055,9 +1055,13 @@ input:checked + .modal-label-privacy .modal-span-check {
     width: 356px;
   }
   .conteiner-img-portf {
-    width: 356px;
+    min-width: 356px;
   }
   .img-our-port {
     width: 100%;
+  }
+  /* Footer */
+  .footer-logo-link {
+    text-align: start;
   }
 }
