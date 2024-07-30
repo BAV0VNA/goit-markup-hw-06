@@ -185,11 +185,20 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-background.jpg);
+    url(../images/Dark-bgmob-hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min--moz-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi) {
+  .section-one {
+    background-image: url(../images/Dark-bgmob-hero2x.jpg);
+  }
 }
 
 .hero-title {
@@ -215,7 +224,8 @@ a {
   background: #4d5ae5;
   border: none;
 }
-.hero-but:hover {
+.hero-but:hover,
+.hero-but:focus {
   background-color: #404bbf;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -537,9 +547,10 @@ a {
 }
 .foot-svg-item:hover,
 .foot-svg-item:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .foot-svg-link {
   display: flex;
   justify-content: center;
@@ -602,7 +613,7 @@ a {
   /* margin-left: 16px; */
   width: 165px;
   height: 40px;
-  background-color: var(--iris);
+  background-color: #4d5ae5;
   border: none;
   font-family: var(--font-family);
   font-weight: 500;
@@ -610,7 +621,13 @@ a {
   line-height: 150%;
   letter-spacing: 0.04em;
   text-align: center;
-  color: var(--white);
+  color: #ffffff;
+}
+.footer-btn-suscribe:hover,
+.footer-btn-suscribe:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-svg-subscribe {
 }
@@ -1060,6 +1077,26 @@ input:checked + .modal-label-privacy .modal-span-check {
   }
   /* Hero */
   .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bgtablet-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+    (min--moz-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi) {
+    .section-one {
+      background-image: url(../images/Dark-bgtablet-hero2x.jpg);
+    }
+  }
+  .hero {
     padding-top: 112px;
     padding-bottom: 112px;
   }
@@ -1154,6 +1191,26 @@ input:checked + .modal-label-privacy .modal-span-check {
     gap: 40px;
   }
   /* Hero */
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office1pc-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+    (min--moz-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi) {
+    .section-one {
+      background-image: url(../images/people-office1pc-hero2x.jpg);
+    }
+  }
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
