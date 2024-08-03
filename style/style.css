@@ -1203,6 +1203,9 @@ input:checked + .modal-label-privacy .modal-span-check {
     width: 408px;
     padding: 72px 24px 24px 24px;
   }
+  .modal-span-privaci {
+    width: 338px;
+  }
 }
 @media (min-resolution: 192dpi) and (min-width: 767.99px) {
   .hero {
@@ -1340,6 +1343,9 @@ input:checked + .modal-label-privacy .modal-span-check {
   .modal {
     width: 408px;
     padding: 72px 24px 24px 24px;
+  }
+  .modal-span-privaci {
+    width: 338px;
   }
 }
 @media (min-resolution: 192dpi) and (min-width: 1158px) {
